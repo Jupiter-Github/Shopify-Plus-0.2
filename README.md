@@ -11,16 +11,18 @@ Shopify Plus is a comprehensive e-commerce platform developed using React, desig
 
 ## View the app (Hosted on Vercel):
 
-https://shopify-plus-kappa.vercel.app/
+shopify-plus-0-2.vercel.app
 
 ## Tools
 
 - React
+- FireBase
 - React Router
 - Redux
 - Material-UI
 - Reactstrap
 - SweetAlert2
+- Formik
 - Fetch API
 
 ## How to use this repo?
