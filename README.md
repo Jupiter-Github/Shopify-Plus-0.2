@@ -16,11 +16,13 @@ shopify-plus-0-2.vercel.app
 ## Tools
 
 - React
+- FireBase
 - React Router
 - Redux
 - Material-UI
 - Reactstrap
 - SweetAlert2
+- Formik
 - Fetch API
 
 ## How to use this repo?
