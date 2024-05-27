@@ -31,7 +31,7 @@ Shopify Plus is a sophisticated e-commerce platform developed using React, facil
 
 ## View the app (Hosted on Vercel):
 
-shopify-plus-0-2.vercel.app
+https://shopify-plus-0-2.vercel.app/
 
 ## Tools
 
