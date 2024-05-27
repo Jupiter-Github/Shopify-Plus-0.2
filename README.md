@@ -1,3 +1,11 @@
+![Home Screen](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/a5cfdb06-64cc-4614-8aff-fff927a725b2)
+![Product Detial Page](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/135db512-d377-46b5-8913-48ea60720375)
+![Cart Page](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/d01923f4-679e-4a25-8ac6-edb2f2d34e3c)
+![Address Page](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/b2bbe88c-d036-44d6-b8d0-915c8c9a0c5e)
+![Payment Page](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/2f69ee5e-c768-4324-afd3-0d0f903e6fef)
+![Order Placed Page](https://github.com/Jupiter-Github/Shopify-Plus-0.2/assets/165056474/c50ab57c-d47e-4ef0-b525-0c85a952712a)
+
+
 # Shopify Plus - Modern E-commerce Solution
 
 Shopify Plus is a sophisticated e-commerce platform developed using React, facilitating multiple users to effortlessly manage their shopping experience. Through a seamless integration of Firebase Authentication and Firestore, users can engage in various actions such as adding products to cart, applying discounts, storing addresses, selecting payment methods, reviewing orders, and ultimately completing transactions.
