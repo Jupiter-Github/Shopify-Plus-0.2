@@ -53,6 +53,7 @@ const LoginModal = ({ toggleShowModal }) => {
   };
 
   const uiConfig = {
+    signInFlow: "popup",
     signInOptions: [
       firebase.auth.EmailAuthProvider.PROVIDER_ID,
       {
@@ -77,7 +78,7 @@ const LoginModal = ({ toggleShowModal }) => {
   useEffect(() => {
     setTimeout(() => {
       ui.start("#firebaseui-auth-container", uiConfig);
-    }, 500);
+    }, 50);
     const ui =
       firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
   }, []);

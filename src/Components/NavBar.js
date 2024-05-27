@@ -27,8 +27,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   const isLoggedIn = useSelector((state) => state.isLoggedIn);
   const cartData = useSelector((state) => state.cartData);
-  const activeUserData = useSelector((state) => state.activeUserData);
-
+  const activeUserData = useSelector((state) => state.activeUserData) || {};
   const [uiState, setUiState] = useState({
     showModel: false,
     showPopover: false,
@@ -54,9 +53,7 @@ const NavBar = () => {
 
   useEffect(() => {
     // to set Badge Value
-    if (isLoggedIn) {
-      setBadgeValue(cartData.length);
-    } else setBadgeValue(0);
+    setBadgeValue(isLoggedIn ? cartData.length : 0);
   }, [isLoggedIn, cartData]);
 
   const handleCartClick = () => {
@@ -101,7 +98,6 @@ const NavBar = () => {
   };
 
   const toggleEle = (elementName) => {
-    console.log(elementName);
     setUiState((prevState) => ({
       ...prevState,
       [elementName]: !prevState[elementName],
