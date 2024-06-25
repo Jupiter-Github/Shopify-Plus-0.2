@@ -10,7 +10,6 @@ import {
 
 const intialState = {
   productDetail: [],
-  // isLoggedIn: false,
   isLoggedIn: JSON.parse(localStorage.getItem("loginStatus")) === true,
   cartData: JSON.parse(localStorage.getItem("cartData")) || [],
   subTotal: 0,
